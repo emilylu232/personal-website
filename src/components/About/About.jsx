@@ -39,11 +39,11 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'I am a senior at Scripps College majoring in Computer Science and minoring in Art!'}
+                    ''}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'My experiences include a software engineering internship, computer science research, software projects, and more. I graduate this upcoming May and I am looking for SWE new grad opportunities.'}
+                    ''}
                 </p>
               </div>
             </Fade>
