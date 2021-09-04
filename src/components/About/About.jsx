@@ -45,18 +45,6 @@ const About = () => {
                   {paragraphTwo ||
                     'My experiences include a software engineering internship, computer science research, software projects, and more. I graduate this upcoming May and I am looking for SWE new grad opportunities.'}
                 </p>
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
-                  </span>
-                )}
               </div>
             </Fade>
           </Col>

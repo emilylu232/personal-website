@@ -24,6 +24,16 @@ export const aboutData = {
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
+// EXPERIENCES DATA
+export const experiencesData = [
+  {
+    id: nanoid(),
+    title: 'Software Engineering Intern',
+    info: 'Designed and implemented a Discord bot in Python that interacts with the Spotify Web API to support synchronous listening between multiple users and music theory analysis',
+    info2: 'Hosted a user elicitation panel, an architecture inspection meeting, a code review, and post-mortem meetings',
+  }
+];
+
 // PROJECTS DATA
 export const projectsData = [
   {
@@ -57,7 +67,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'emilylu232@gmail.com',
 };
 
 // FOOTER DATA
@@ -65,23 +75,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/emily-k-lu/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/emilylu232',
     },
   ],
 };
