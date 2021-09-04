@@ -18,8 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne: 'I am a senior at Scripps College majoring in Computer Science and minoring in Art! ',
+  paragraphTwo: 'My experiences include a software engineering internship, computer science research, software projects, and more. I graduate this upcoming May and I am looking for SWE new grad opportunities.',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -27,11 +27,42 @@ export const aboutData = {
 // EXPERIENCES DATA
 export const experiencesData = [
   {
-    id: nanoid(),
-    title: 'Software Engineering Intern',
-    info: 'Designed and implemented a Discord bot in Python that interacts with the Spotify Web API to support synchronous listening between multiple users and music theory analysis',
-    info2: 'Hosted a user elicitation panel, an architecture inspection meeting, a code review, and post-mortem meetings',
-  }
+    title: 'Software Engineering Intern, FactSet, CT',
+    info: 'June 2021 - Aug 2021',
+    info2: '‣ Worked as a backend engineer on Quotes Team (responsible for TickerPlants that receive and send market data)',
+    info3: '‣ Designed critical architecture changes to standardize 30 TickerPlants',
+    info4: '‣ Implemented standardization through a C++ framework to be inherited into TickerPlants. Once inherited, the framework would receive, process, and send ~100 million real-time market data messages per day',
+    info5: '‣ Presented a demonstration of a TickerPlant with my inherited framework to 20+ engineers',
+  },
+
+  {
+    title: 'Computer Science Researcher, Harvey Mudd College, CA',
+    info: 'May 2020 - Dec 2020',
+    info2: '‣ Co-authored a paper with Prof. Lucas Bang that was accepted to Intl. Conference on Software Engineering 2021',
+    info3: '‣ Coded a Python script that inlined function calls in C programs, allowing our control flow analysis techniques to measure the complexity of code with function calls',
+    info4: '‣ Investigated and validated the accuracy of in-lining through experiments with datasets of 20+ C functions',
+  },
+
+  {
+    title: 'Information Technology Intern, Office of Information Technology, Scripps College, CA',
+    info: 'June 2019 - July 2019',
+    info2: '‣ Provided hands-on support to end-users while working closely with a help desk team of 10',
+    info3: '‣ Served as head intern liaison for Girls who Code team through daily check-ins and technical support',
+  },
+
+  {
+    title: 'Computer Science Teaching Assistant, Harvey Mudd College, CA',
+    info: 'Sep 2021 - Present',
+    info2: '‣ Tutor and grade for a course with 200+ students (Introduction to Computer Science)',
+    info3: '‣ Host weekly 2 hour drop-in tutoring sessions for conceptual Python help and debugging support',
+  },
+
+  {
+    title: 'Marketing Intern, Scripps Communities of Resources and Empowerment, Scripps College, CA',
+    info: 'Aug 2019 - May 2020',
+    info2: '‣ Oversaw social media engagement on FB and Instagram by creating 7+ graphic designs per month',
+  },
+
 ];
 
 // PROJECTS DATA
