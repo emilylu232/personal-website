@@ -28,30 +28,28 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'bot.png',
+    title: 'Discord Music Bot',
+    info: 'Designed and implemented a Discord bot in Python that interacts with the Spotify Web API to support synchronous listening between multiple users and music theory analysis',
+    info2:
+      'Hosted a user elicitation panel, an architecture inspection meeting, a code review, and post-mortem meetings',
+    url: 'https://github.com/bettinabenitez/introspectivespotify',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'color.png',
+    title: 'Automatic Image Coloring Software',
+    info: 'Conceptualized and developed an automatic image and GIF coloring software in Python',
+    info2:
+      'Utilized a pre-trained object detection AI (detectron2) to segment a black & white image/GIF and color in objects in the image/GIF based on user-inputted colored “scribbles"',
+    url: 'colab.research.google.com/drive/11-fho8zioELxdWgipCjFq-dwDOiuOBtw',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'snake1.jpg',
+    title: 'Snake Game',
+    info: 'Programmed a snake game in Java with an optional breadth-first search mode and game variants (reversing the snake, doubling the snake’s speed, and having 3 lives per game)',
+    info2: 'Utilized Linked Lists and Object Oriented Programming',
   },
 ];
 
